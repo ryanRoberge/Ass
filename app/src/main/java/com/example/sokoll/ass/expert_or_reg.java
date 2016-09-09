@@ -10,6 +10,6 @@ public class expert_or_reg extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_expert_or_reg);
 
-//
+///;.;.
     }
 }
