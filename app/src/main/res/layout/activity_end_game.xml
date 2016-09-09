@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sokoll.ass.EndGame"
+    android:background="#38649d">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Words Won: 13"
+        android:id="@+id/Total_Words"
+        android:layout_above="@+id/Coins_earned"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Coins Earned: 22"
+        android:id="@+id/Coins_earned"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="High Score: 250"
+        android:id="@+id/High_Score"
+        android:layout_below="@+id/Coins_earned"
+        android:layout_alignRight="@+id/Total_Words"
+        android:layout_alignEnd="@+id/Total_Words"
+        android:layout_marginTop="80dp" />
+</RelativeLayout>
